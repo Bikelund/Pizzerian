@@ -63,3 +63,12 @@ li a {
   .padding-top{
       padding-top: 150px;
   }
+  p {
+      color: yellow;
+  }
+  .pizzor {
+      margin-left: 20px;
+      display: block;
+      width: 500px;
+      margin: 0 auto;
+  }
