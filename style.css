@@ -7,7 +7,6 @@
 }
 *{
     margin: 0;
-    box-sizing: border-box;
 }
 .container{
     width: 100%;
@@ -30,3 +29,33 @@
 h1, h2{
     color: yellow;
 }
+/* nav ul li a{
+    padding: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    margin-top: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+ */
+ ul {
+    list-style-type: none;
+    margin: 150px auto 0px auto;
+    padding: 0;
+    width: 150px;
+}
+
+li a {
+    display: block;
+    color:yellow;
+    background-color:red;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 10%px;
+    font-size: 25px;
+  }
