@@ -28,6 +28,7 @@
 }
 h1, h2{
     color: yellow;
+    text-align: center;
 }
 /* nav ul li a{
     padding: 20px;
@@ -58,4 +59,7 @@ li a {
     border: 1px solid black;
     width: 10%px;
     font-size: 25px;
+  }
+  .padding-top{
+      padding-top: 150px;
   }
