@@ -8,23 +8,25 @@
 *{
     margin: 0;
 }
+body, a:hover{
+    cursor: url(pizza.gif), auto;
+}
 .container{
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
     height: 100vh;
 }
 .content{
     float: left;
     width: 80%;
     background-color: black;
-    height: 100vh;
+    height: 1000px;
 }
 .sidebar{
     float: left;
     width: 20%;
     background-color: yellow;
-    height: 100vh;
+    height: 1000px;
 }
 h1, h2{
     color: yellow;
@@ -79,4 +81,10 @@ li a {
       width: fit-content;
       background-color: #ff0;
       border: black 1px solid;
+  }
+  hr{
+      border: 2px solid red;
+  }
+  ol{
+      list-style-type: none;
   }
