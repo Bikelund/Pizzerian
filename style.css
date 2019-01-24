@@ -72,3 +72,12 @@ li a {
       width: 500px;
       margin: 0 auto;
   }
+    #price {
+      display: none;
+      position: fixed;
+      top: 100px;
+      right: 100px;
+      width: fit-content;
+      background-color: #ff0;
+      border: black 1px solid;
+  }
