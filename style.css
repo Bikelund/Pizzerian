@@ -1,6 +1,32 @@
 .logo img, .logo h1{
     display: inline-block;
 }
-logo{
+.logo{
     text-align: center;
+    padding-top: 10px;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100vh;
+}
+.content{
+    float: left;
+    width: 80%;
+    background-color: black;
+    height: 100vh;
+}
+.sidebar{
+    float: left;
+    width: 20%;
+    background-color: yellow;
+    height: 100vh;
+}
+h1, h2{
+    color: yellow;
 }
